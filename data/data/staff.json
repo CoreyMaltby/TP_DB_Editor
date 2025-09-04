@@ -1,0 +1,686 @@
+[
+  {
+    "name": "Arthur Prentiss",
+    "role": "technical_director",
+    "team": "Red Boar",
+    "skill": 18,
+    "age": 47,
+    "contract": {
+      "team": "Red Boar",
+      "length_weeks": 52,
+      "salary_m": 9.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Felix Navarro",
+    "role": "technical_director",
+    "team": "Scuderia Rossa",
+    "skill": 13,
+    "age": 36,
+    "contract": {
+      "team": "Scuderia Rossa",
+      "length_weeks": 52,
+      "salary_m": 6.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Milo Shepherd",
+    "role": "technical_director",
+    "team": "McMean",
+    "skill": 20,
+    "age": 51,
+    "contract": {
+      "team": "McMean",
+      "length_weeks": 52,
+      "salary_m": 10.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Caleb Morton",
+    "role": "technical_director",
+    "team": "Mercurion",
+    "skill": 14,
+    "age": 47,
+    "contract": {
+      "team": "Mercurion",
+      "length_weeks": 52,
+      "salary_m": 7.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Gavin Roemer",
+    "role": "technical_director",
+    "team": "Ashton Darting",
+    "skill": 16,
+    "age": 50,
+    "contract": {
+      "team": "Ashton Darting",
+      "length_weeks": 52,
+      "salary_m": 8.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Jonas Pritchard",
+    "role": "technical_director",
+    "team": "French Blue",
+    "skill": 11,
+    "age": 53,
+    "contract": {
+      "team": "French Blue",
+      "length_weeks": 52,
+      "salary_m": 5.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Oscar McMillan",
+    "role": "technical_director",
+    "team": "Alpha Bison",
+    "skill": 9,
+    "age": 51,
+    "contract": {
+      "team": "Alpha Bison",
+      "length_weeks": 52,
+      "salary_m": 4.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Nate Ellison",
+    "role": "technical_director",
+    "team": "Saubrenn",
+    "skill": 9,
+    "age": 44,
+    "contract": {
+      "team": "Saubrenn",
+      "length_weeks": 52,
+      "salary_m": 4.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Renato Carvalho",
+    "role": "technical_director",
+    "team": "Hossden GP",
+    "skill": 8,
+    "age": 59,
+    "contract": {
+      "team": "Hossden GP",
+      "length_weeks": 52,
+      "salary_m": 4.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Boris Savin",
+    "role": "technical_director",
+    "team": "Willens Racing",
+    "skill": 13,
+    "age": 54,
+    "contract": {
+      "team": "Willens Racing",
+      "length_weeks": 52,
+      "salary_m": 6.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Wei Zhang",
+    "role": "technical_director",
+    "team": "Cadylacky Motors",
+    "skill": 9,
+    "age": 52,
+    "contract": {
+      "team": "Cadylacky Motors",
+      "length_weeks": 52,
+      "salary_m": 4.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Luca Bianchi",
+    "role": "technical_director",
+    "team": null,
+    "skill": 8,
+    "age": 44
+  },
+  {
+    "name": "Sebastien Moreau",
+    "role": "chief_designer",
+    "team": "Red Boar",
+    "skill": 7,
+    "age": 58,
+    "contract": {
+      "team": "Red Boar",
+      "length_weeks": 52,
+      "salary_m": 7.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Rafael Costa",
+    "role": "chief_designer",
+    "team": "Scuderia Rossa",
+    "skill": 15,
+    "age": 56,
+    "contract": {
+      "team": "Scuderia Rossa",
+      "length_weeks": 52,
+      "salary_m": 15.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Damian Cole",
+    "role": "chief_designer",
+    "team": "McMean",
+    "skill": 8,
+    "age": 50,
+    "contract": {
+      "team": "McMean",
+      "length_weeks": 52,
+      "salary_m": 8.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Marcel Berger",
+    "role": "chief_designer",
+    "team": "Mercurion",
+    "skill": 18,
+    "age": 46,
+    "contract": {
+      "team": "Mercurion",
+      "length_weeks": 52,
+      "salary_m": 18.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Enzo Ricci",
+    "role": "chief_designer",
+    "team": "Ashton Darting",
+    "skill": 11,
+    "age": 45,
+    "contract": {
+      "team": "Ashton Darting",
+      "length_weeks": 52,
+      "salary_m": 11.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Oliver King",
+    "role": "head_of_dynamics",
+    "team": "French Blue",
+    "skill": 20,
+    "age": 52,
+    "contract": {
+      "team": "French Blue",
+      "length_weeks": 52,
+      "salary_m": 20.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Tobias Lund",
+    "role": "chief_designer",
+    "team": "Alpha Bison",
+    "skill": 13,
+    "age": 49,
+    "contract": {
+      "team": "Alpha Bison",
+      "length_weeks": 52,
+      "salary_m": 13.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Gianni Russo",
+    "role": "chief_designer",
+    "team": "Saubrenn",
+    "skill": 5,
+    "age": 36,
+    "contract": {
+      "team": "Saubrenn",
+      "length_weeks": 52,
+      "salary_m": 5.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Pavel Novak",
+    "role": "chief_designer",
+    "team": "Hossden GP",
+    "skill": 17,
+    "age": 37,
+    "contract": {
+      "team": "Hossden GP",
+      "length_weeks": 52,
+      "salary_m": 17.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Santiago Mendez",
+    "role": "chief_designer",
+    "team": "Willens Racing",
+    "skill": 5,
+    "age": 57,
+    "contract": {
+      "team": "Willens Racing",
+      "length_weeks": 52,
+      "salary_m": 5.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Adrian Hughes",
+    "role": "chief_designer",
+    "team": "Cadylacky Motors",
+    "skill": 20,
+    "age": 54,
+    "contract": {
+      "team": "Cadylacky Motors",
+      "length_weeks": 52,
+      "salary_m": 20.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Julian Park",
+    "role": "chief_designer",
+    "team": null,
+    "skill": 12,
+    "age": 45
+  },
+  {
+    "name": "Marcus Flynn",
+    "role": "head_of_dynamics",
+    "team": "Red Boar",
+    "skill": 15,
+    "age": 58,
+    "contract": {
+      "team": "Red Boar",
+      "length_weeks": 52,
+      "salary_m": 3.8,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Diego Herrera",
+    "role": "head_of_dynamics",
+    "team": "Scuderia Rossa",
+    "skill": 7,
+    "age": 57,
+    "contract": {
+      "team": "Scuderia Rossa",
+      "length_weeks": 52,
+      "salary_m": 1.8,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Jasper Voss",
+    "role": "head_of_dynamics",
+    "team": "McMean",
+    "skill": 12,
+    "age": 41,
+    "contract": {
+      "team": "McMean",
+      "length_weeks": 52,
+      "salary_m": 3.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Harvey Quinn",
+    "role": "head_of_dynamics",
+    "team": "Mercurion",
+    "skill": 9,
+    "age": 42,
+    "contract": {
+      "team": "Mercurion",
+      "length_weeks": 52,
+      "salary_m": 2.2,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Noah Sinclair",
+    "role": "head_of_dynamics",
+    "team": "Ashton Darting",
+    "skill": 19,
+    "age": 60,
+    "contract": {
+      "team": "Ashton Darting",
+      "length_weeks": 52,
+      "salary_m": 4.8,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Carter Holm",
+    "role": "head_of_dynamics",
+    "team": "French Blue",
+    "skill": 7,
+    "age": 37,
+    "contract": {
+      "team": "French Blue",
+      "length_weeks": 52,
+      "salary_m": 1.8,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Ivan Koval",
+    "role": "head_of_dynamics",
+    "team": "Alpha Bison",
+    "skill": 20,
+    "age": 45,
+    "contract": {
+      "team": "Alpha Bison",
+      "length_weeks": 52,
+      "salary_m": 5.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Liam O'Reilly",
+    "role": "head_of_dynamics",
+    "team": "Saubrenn",
+    "skill": 14,
+    "age": 38,
+    "contract": {
+      "team": "Saubrenn",
+      "length_weeks": 52,
+      "salary_m": 3.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Yuri Petrov",
+    "role": "head_of_dynamics",
+    "team": "Hossden GP",
+    "skill": 14,
+    "age": 52,
+    "contract": {
+      "team": "Hossden GP",
+      "length_weeks": 52,
+      "salary_m": 3.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Matteo Romano",
+    "role": "head_of_dynamics",
+    "team": "Willens Racing",
+    "skill": 8,
+    "age": 57,
+    "contract": {
+      "team": "Willens Racing",
+      "length_weeks": 52,
+      "salary_m": 2.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Quentin Leclerc",
+    "role": "head_of_dynamics",
+    "team": "Cadylacky Motors",
+    "skill": 15,
+    "age": 52,
+    "contract": {
+      "team": "Cadylacky Motors",
+      "length_weeks": 52,
+      "salary_m": 3.8,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Samir Patel",
+    "role": "head_of_dynamics",
+    "team": null,
+    "skill": 11,
+    "age": 52
+  },
+  {
+    "name": "Logan Shaw",
+    "role": "chief_mechanic",
+    "team": "Red Boar",
+    "skill": 14,
+    "age": 60,
+    "contract": {
+      "team": "Red Boar",
+      "length_weeks": 52,
+      "salary_m": 7.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Pedro Alvarez",
+    "role": "chief_mechanic",
+    "team": "Scuderia Rossa",
+    "skill": 7,
+    "age": 49,
+    "contract": {
+      "team": "Scuderia Rossa",
+      "length_weeks": 52,
+      "salary_m": 3.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Connor Walsh",
+    "role": "chief_mechanic",
+    "team": "McMean",
+    "skill": 17,
+    "age": 54,
+    "contract": {
+      "team": "McMean",
+      "length_weeks": 52,
+      "salary_m": 8.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Elias Becker",
+    "role": "chief_mechanic",
+    "team": "Mercurion",
+    "skill": 12,
+    "age": 45,
+    "contract": {
+      "team": "Mercurion",
+      "length_weeks": 52,
+      "salary_m": 6.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Haruki Ito",
+    "role": "chief_mechanic",
+    "team": "Ashton Darting",
+    "skill": 10,
+    "age": 44,
+    "contract": {
+      "team": "Ashton Darting",
+      "length_weeks": 52,
+      "salary_m": 5.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Mitchell Grant",
+    "role": "chief_mechanic",
+    "team": "French Blue",
+    "skill": 10,
+    "age": 41,
+    "contract": {
+      "team": "French Blue",
+      "length_weeks": 52,
+      "salary_m": 5.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Stefan Weber",
+    "role": "chief_mechanic",
+    "team": "Alpha Bison",
+    "skill": 13,
+    "age": 36,
+    "contract": {
+      "team": "Alpha Bison",
+      "length_weeks": 52,
+      "salary_m": 6.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Dylan Brooks",
+    "role": "chief_mechanic",
+    "team": "Saubrenn",
+    "skill": 7,
+    "age": 50,
+    "contract": {
+      "team": "Saubrenn",
+      "length_weeks": 52,
+      "salary_m": 3.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Miguel Santos",
+    "role": "chief_mechanic",
+    "team": "Hossden GP",
+    "skill": 9,
+    "age": 37,
+    "contract": {
+      "team": "Hossden GP",
+      "length_weeks": 52,
+      "salary_m": 4.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Rick Jensen",
+    "role": "chief_mechanic",
+    "team": "Willens Racing",
+    "skill": 6,
+    "age": 39,
+    "contract": {
+      "team": "Willens Racing",
+      "length_weeks": 52,
+      "salary_m": 3.0,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Alexei Smirnov",
+    "role": "chief_mechanic",
+    "team": "Cadylacky Motors",
+    "skill": 17,
+    "age": 37,
+    "contract": {
+      "team": "Cadylacky Motors",
+      "length_weeks": 52,
+      "salary_m": 8.5,
+      "start_week": 1
+    }
+  },
+  {
+    "name": "Jorge Castillo",
+    "role": "chief_mechanic",
+    "team": null,
+    "skill": 13,
+    "age": 57
+  },
+  {
+    "name": "Ethan Wright",
+    "role": "technical_director",
+    "team": null,
+    "skill": 18,
+    "age": 44
+  },
+  {
+    "name": "Victor Molnar",
+    "role": "technical_director",
+    "team": null,
+    "skill": 10,
+    "age": 32
+  },
+  {
+    "name": "Hiro Tanaka",
+    "role": "technical_director",
+    "team": null,
+    "skill": 6,
+    "age": 59
+  },
+  {
+    "name": "Sergei Antonov",
+    "role": "chief_designer",
+    "team": null,
+    "skill": 14,
+    "age": 54
+  },
+  {
+    "name": "Bruno Duarte",
+    "role": "chief_designer",
+    "team": null,
+    "skill": 15,
+    "age": 54
+  },
+  {
+    "name": "Kenji Sato",
+    "role": "chief_designer",
+    "team": null,
+    "skill": 8,
+    "age": 48
+  },
+  {
+    "name": "Andre Melo",
+    "role": "head_of_dynamics",
+    "team": null,
+    "skill": 19,
+    "age": 45
+  },
+  {
+    "name": "Peter Kowalski",
+    "role": "head_of_dynamics",
+    "team": null,
+    "skill": 6,
+    "age": 33
+  },
+  {
+    "name": "Mason Reed",
+    "role": "head_of_dynamics",
+    "team": null,
+    "skill": 6,
+    "age": 39
+  },
+  {
+    "name": "Tyson Ward",
+    "role": "chief_mechanic",
+    "team": null,
+    "skill": 5,
+    "age": 42
+  },
+  {
+    "name": "Nikolai Volkov",
+    "role": "chief_mechanic",
+    "team": null,
+    "skill": 6,
+    "age": 33
+  },
+  {
+    "name": "Zane Foster",
+    "role": "chief_mechanic",
+    "team": null,
+    "skill": 18,
+    "age": 32
+  }
+]

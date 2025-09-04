@@ -1,0 +1,60 @@
+[
+  {
+    "type": "team_join",
+    "team": "Pantera F1",
+    "chance": 0.05
+  },
+  {
+    "type": "team_join",
+    "team": "Lola Racing",
+    "chance": 0.05
+  },
+  {
+    "type": "team_join",
+    "team": "Zephyr GP",
+    "chance": 0.05
+  },
+  {
+    "type": "team_join",
+    "team": "Phoenix Racing",
+    "chance": 0.05
+  },
+  {
+    "type": "team_join",
+    "team": "Orion Motorsport",
+    "chance": 0.05
+  },
+  {
+    "type": "team_join",
+    "team": "Valkyrie F1",
+    "chance": 0.05
+  },
+  {
+    "type": "reg_change_aero",
+    "chance": 0.1
+  },
+  {
+    "type": "reg_change_aero_minor",
+    "chance": 0.2
+  },
+  {
+    "type": "reg_change_engine",
+    "chance": 0.15
+  },
+  {
+    "type": "reg_change_chassis_minor",
+    "chance": 0.25
+  },
+  {
+    "type": "reg_change_chassis_major",
+    "chance": 0.1
+  },
+  {
+    "type": "team_package_aced",
+    "chance": 0.15
+  },
+  {
+    "type": "team_package_struggle",
+    "chance": 0.2
+  }
+]

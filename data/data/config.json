@@ -1,0 +1,83 @@
+{
+  "dirty_air": {
+    "enabled": true,
+    "curve": [
+      {
+        "gap": 0.1,
+        "mult": 1.01
+      },
+      {
+        "gap": 0.3,
+        "mult": 1.008
+      },
+      {
+        "gap": 0.6,
+        "mult": 1.004
+      },
+      {
+        "gap": 1.0,
+        "mult": 1.002
+      },
+      {
+        "gap": 2.0,
+        "mult": 1.0
+      }
+    ],
+    "max_stack": 1,
+    "stack_decay": 0.5
+  },
+  "tyres": {
+    "enabled": true,
+    "compounds": {
+      "soft": {
+        "base_delta": -0.1,
+        "deg_per_lap": 0.038,
+        "cliff_lap": 14
+      },
+      "medium": {
+        "base_delta": 0.3,
+        "deg_per_lap": 0.02,
+        "cliff_lap": 20
+      },
+      "hard": {
+        "base_delta": 0.5,
+        "deg_per_lap": 0.014,
+        "cliff_lap": 30
+      }
+    },
+    "wear_to_laptime_mult": 3.5,
+    "default_compound": "medium",
+    "start_probabilities": {
+      "soft": 0.35,
+      "medium": 0.5,
+      "hard": 0.15
+    }
+  },
+  "pitstops": {
+    "enabled": true,
+    "strategy": "wear_threshold",
+    "wear_threshold": 0.55,
+    "pit_lane_loss_s": 18.5,
+    "fail_prob": 0.003,
+    "fail_extra_s": [
+      1.0,
+      6.0
+    ],
+    "max_lap_fraction": 0.8
+  },
+  "incidents": {
+    "spin_prob_per_lap": 0.006,
+    "spin_loss_s": [
+      1.0,
+      10.0
+    ],
+    "collision_prob_per_lap": 0.002,
+    "collision_close_s": 0.1,
+    "mech_dnf_prob_per_lap": 0.002
+  },
+  "safety_car": {
+    "pace_factor": 0.5,
+    "catch_gap_s": 1.0,
+    "catchup_pace_factor": 1.8
+  }
+}

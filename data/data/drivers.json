@@ -1,0 +1,1990 @@
+[
+  {
+    "name": "David Malukas",
+    "team": "A. J. Enterprises",
+    "base_lap_time_sim": "80",
+    "number": "4",
+    "cornering": "15",
+    "braking": "14",
+    "consistency": "16",
+    "smoothness": "15",
+    "control": "15",
+    "history": {
+      "seasons": 4,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 3,
+      "poles": 0
+    },
+    "contract": {
+      "team": "A.J. Foyt Enterprises",
+      "length_weeks": "104",
+      "salary_m": "1.2",
+      "start_week": "1"
+    },
+    "age": "23",
+    "talent": "",
+    "train": "",
+    "pay_driver_amount_m": "",
+    "seasons": "",
+    "championships": "",
+    "wins": "",
+    "podiums": "",
+    "poles": ""
+  },
+  {
+    "name": "Santino Ferrucci",
+    "team": "A. J. Enterprises",
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 14,
+    "history": {
+      "seasons": 7,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 3,
+      "poles": 1
+    },
+    "contract": {
+      "team": "A. J. Enterprises",
+      "length_weeks": 104,
+      "salary_m": 0.6,
+      "start_week": 1
+    },
+    "age": 27
+  },
+  {
+    "name": "Colton Herta",
+    "team": "Andretti Global",
+    "base_lap_time_sim": 80,
+    "cornering": 18,
+    "braking": 16,
+    "consistency": 17,
+    "smoothness": 18,
+    "control": 17,
+    "history": {
+      "seasons": 7,
+      "championships": 0,
+      "wins": 9,
+      "podiums": 18,
+      "poles": 14
+    },
+    "contract": {
+      "team": "Andretti Global",
+      "length_weeks": 156,
+      "salary_m": 2.6,
+      "start_week": 1
+    },
+    "age": 24,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Kyle Kirkwood",
+    "team": "Andretti Global",
+    "base_lap_time_sim": 80,
+    "cornering": 17,
+    "braking": 17,
+    "consistency": 17,
+    "smoothness": 16,
+    "control": 16,
+    "history": {
+      "seasons": 3,
+      "championships": 0,
+      "wins": 2,
+      "podiums": 3,
+      "poles": 2
+    },
+    "contract": {
+      "team": "Andretti Global",
+      "length_weeks": 104,
+      "salary_m": 2.2,
+      "start_week": 1
+    },
+    "age": 26,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Marcus Ericsson",
+    "team": "Andretti Global",
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 15,
+    "consistency": 16,
+    "smoothness": 16,
+    "control": 15,
+    "history": {
+      "seasons": 6,
+      "championships": 0,
+      "wins": 4,
+      "podiums": 11,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Andretti Global",
+      "length_weeks": 104,
+      "salary_m": 1.8,
+      "start_week": 1
+    },
+    "age": 34,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Marco Andretti",
+    "team": "null",
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 14,
+    "history": {
+      "seasons": 14,
+      "championships": 0,
+      "wins": 2,
+      "podiums": 20,
+      "poles": 6
+    },
+    "contract": {
+      "team": "null",
+      "length_weeks": 52,
+      "salary_m": 0.8,
+      "start_week": 1
+    },
+    "age": 37,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Pato O'Ward",
+    "team": "McLaren",
+    "base_lap_time_sim": 80,
+    "number": 5,
+    "cornering": 19,
+    "braking": 17,
+    "consistency": 18,
+    "smoothness": 18,
+    "control": 18,
+    "history": {
+      "seasons": 7,
+      "championships": 0,
+      "wins": 7,
+      "podiums": 26,
+      "poles": 5
+    },
+    "contract": {
+      "team": "McLaren",
+      "length_weeks": 156,
+      "salary_m": 4,
+      "start_week": 1
+    },
+    "age": 25,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Nolan Siegel",
+    "team": "McLaren",
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 13,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 13,
+    "history": {
+      "seasons": 1,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "McLaren",
+      "length_weeks": 52,
+      "salary_m": 0.5,
+      "start_week": 1
+    },
+    "age": 20,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Christian Lundgaard",
+    "team": "McLaren",
+    "base_lap_time_sim": 80,
+    "cornering": 17,
+    "braking": 16,
+    "consistency": 17,
+    "smoothness": 16,
+    "control": 16,
+    "history": {
+      "seasons": 4,
+      "championships": 0,
+      "wins": 1,
+      "podiums": 3,
+      "poles": 2
+    },
+    "contract": {
+      "team": "McLaren",
+      "length_weeks": 104,
+      "salary_m": 1.8,
+      "start_week": 1
+    },
+    "age": 23,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Kyle Larson",
+    "team": "null",
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 15,
+    "consistency": 16,
+    "smoothness": 14,
+    "control": 15,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 31,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Kyffin Simpson",
+    "team": "Chip Ganassi Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 14,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 15,
+    "history": {
+      "seasons": 1,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Chip Ganassi Racing",
+      "length_weeks": 104,
+      "salary_m": 0.9,
+      "start_week": 1
+    },
+    "age": 20,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Scott Dixon",
+    "team": "Chip Ganassi Racing",
+    "base_lap_time_sim": 80,
+    "number": 9,
+    "cornering": 19,
+    "braking": 18,
+    "consistency": 20,
+    "smoothness": 19,
+    "control": 19,
+    "history": {
+      "seasons": 24,
+      "championships": 6,
+      "wins": 57,
+      "podiums": 140,
+      "poles": 32
+    },
+    "contract": {
+      "team": "Chip Ganassi Racing",
+      "length_weeks": 156,
+      "salary_m": 5,
+      "start_week": 1
+    },
+    "age": 44,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Alex Palou",
+    "team": "Chip Ganassi Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 19,
+    "braking": 17,
+    "consistency": 18,
+    "smoothness": 18,
+    "control": 18,
+    "history": {
+      "seasons": 5,
+      "championships": 3,
+      "wins": 11,
+      "podiums": 30,
+      "poles": 6
+    },
+    "contract": {
+      "team": "Chip Ganassi Racing",
+      "length_weeks": 156,
+      "salary_m": 6,
+      "start_week": 1
+    },
+    "age": 27,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Rinus VeeKay",
+    "team": "Dale Coyne Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 16,
+    "braking": 15,
+    "consistency": 15,
+    "smoothness": 15,
+    "control": 15,
+    "history": {
+      "seasons": 5,
+      "championships": 0,
+      "wins": 1,
+      "podiums": 5,
+      "poles": 2
+    },
+    "contract": {
+      "team": "Dale Coyne Racing",
+      "length_weeks": 52,
+      "salary_m": 1,
+      "start_week": 1
+    },
+    "age": 24,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Jacob Abel",
+    "team": "Dale Coyne Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Dale Coyne Racing",
+      "length_weeks": 52,
+      "salary_m": 0.6,
+      "start_week": 1
+    },
+    "age": 23,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Ryan Hunter-Reay",
+    "team": "null",
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 15,
+    "consistency": 16,
+    "smoothness": 15,
+    "control": 15,
+    "history": {
+      "seasons": 21,
+      "championships": 1,
+      "wins": 18,
+      "podiums": 47,
+      "poles": 7
+    },
+    "contract": {
+      "team": "null",
+      "length_weeks": 52,
+      "salary_m": 1,
+      "start_week": 1
+    },
+    "age": 44,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Jack Harvey",
+    "team": "null",
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 14,
+    "smoothness": 14,
+    "control": 13,
+    "history": {
+      "seasons": 7,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 1,
+      "poles": 0
+    },
+    "contract": {
+      "team": "null",
+      "length_weeks": 12,
+      "salary_m": 0.2,
+      "start_week": 1
+    },
+    "age": 31,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Alexander Rossi",
+    "team": "Ed Carpenter Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 16,
+    "braking": 16,
+    "consistency": 16,
+    "smoothness": 16,
+    "control": 16,
+    "history": {
+      "seasons": 8,
+      "championships": 0,
+      "wins": 8,
+      "podiums": 28,
+      "poles": 7
+    },
+    "contract": {
+      "team": "Ed Carpenter Racing",
+      "length_weeks": 52,
+      "salary_m": 1.6,
+      "start_week": 1
+    },
+    "age": 33,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Christian Rasmussen",
+    "team": "Ed Carpenter Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Ed Carpenter Racing",
+      "length_weeks": 52,
+      "salary_m": 0.6,
+      "start_week": 1
+    },
+    "age": 22
+  },
+  {
+    "name": "Ed Carpenter",
+    "team": "null",
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 10,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 14,
+    "history": {
+      "seasons": 21,
+      "championships": 0,
+      "wins": 3,
+      "podiums": 9,
+      "poles": 4
+    },
+    "contract": {
+      "team": "null",
+      "length_weeks": 52,
+      "salary_m": 0.5,
+      "start_week": 1
+    },
+    "age": 43,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Conor Daly",
+    "team": "Juncos Hollinger Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 14,
+    "smoothness": 14,
+    "control": 14,
+    "history": {
+      "seasons": 11,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 2,
+      "poles": 1
+    },
+    "contract": {
+      "team": "Juncos Hollinger Racing",
+      "length_weeks": 52,
+      "salary_m": 0.9,
+      "start_week": 1
+    },
+    "age": 33,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Sting Ray Robb",
+    "team": "Juncos Hollinger Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 13,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 2,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Juncos Hollinger Racing",
+      "length_weeks": 52,
+      "salary_m": 0.5,
+      "start_week": 1
+    },
+    "age": 23,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Helio Castroneves",
+    "team": "null",
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 12,
+    "consistency": 15,
+    "smoothness": 15,
+    "control": 14,
+    "history": {
+      "seasons": 23,
+      "championships": 0,
+      "wins": 31,
+      "podiums": 104,
+      "poles": 55
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 49,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Felix Rosenqvist",
+    "team": "Meyer Shank Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 17,
+    "braking": 16,
+    "consistency": 16,
+    "smoothness": 16,
+    "control": 16,
+    "history": {
+      "seasons": 5,
+      "championships": 0,
+      "wins": 1,
+      "podiums": 7,
+      "poles": 5
+    },
+    "contract": {
+      "team": "Meyer Shank Racing",
+      "length_weeks": 52,
+      "salary_m": 1.4,
+      "start_week": 1
+    },
+    "age": 33,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Marcus Armstrong",
+    "team": "Meyer Shank Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 16,
+    "braking": 15,
+    "consistency": 15,
+    "smoothness": 15,
+    "control": 15,
+    "history": {
+      "seasons": 2,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 1,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Meyer Shank Racing",
+      "length_weeks": 104,
+      "salary_m": 1,
+      "start_week": 1
+    },
+    "age": 24,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Robert Shwartzman",
+    "team": "PREMA Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 15,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 14,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "PREMA Racing",
+      "length_weeks": 104,
+      "salary_m": 1.0,
+      "start_week": 1
+    },
+    "age": 25,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Callum Ilott",
+    "team": "PREMA Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 15,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 14,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "PREMA Racing",
+      "length_weeks": 104,
+      "salary_m": 0.9,
+      "start_week": 1
+    },
+    "age": 26,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Graham Rahal",
+    "team": "Rahal Letterman Lanigan Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 14,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 14,
+    "history": {
+      "seasons": 17,
+      "championships": 0,
+      "wins": 6,
+      "podiums": 33,
+      "poles": 5
+    },
+    "contract": {
+      "team": "Rahal Letterman Lanigan Racing",
+      "length_weeks": 104,
+      "salary_m": 1.5,
+      "start_week": 1
+    },
+    "age": 35,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Devlin DeFrancesco",
+    "team": "Rahal Letterman Lanigan Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 13,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 2,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Rahal Letterman Lanigan Racing",
+      "length_weeks": 52,
+      "salary_m": 0.9,
+      "start_week": 1
+    },
+    "age": 24,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Louis Foster",
+    "team": "Rahal Letterman Lanigan Racing",
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 14,
+    "consistency": 14,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Rahal Letterman Lanigan Racing",
+      "length_weeks": 52,
+      "salary_m": 0.5,
+      "start_week": 1
+    },
+    "age": 21,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Takuma Sato",
+    "team": "null",
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 12,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 15,
+    "history": {
+      "seasons": 14,
+      "championships": 0,
+      "wins": 6,
+      "podiums": 14,
+      "poles": 10
+    },
+    "contract": {
+      "team": "null",
+      "length_weeks": 1,
+      "salary_m": 0.4,
+      "start_week": 1
+    },
+    "age": 47,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Josef Newgarden",
+    "team": "Team Penske",
+    "base_lap_time_sim": 80,
+    "cornering": 18,
+    "braking": 18,
+    "consistency": 19,
+    "smoothness": 17,
+    "control": 18,
+    "history": {
+      "seasons": 12,
+      "championships": 2,
+      "wins": 31,
+      "podiums": 55,
+      "poles": 18
+    },
+    "contract": {
+      "team": "Team Penske",
+      "length_weeks": 104,
+      "salary_m": 6,
+      "start_week": 1
+    },
+    "age": 34,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Scott McLaughlin",
+    "team": "Team Penske",
+    "base_lap_time_sim": 80,
+    "cornering": 17,
+    "braking": 17,
+    "consistency": 17,
+    "smoothness": 16,
+    "control": 16,
+    "history": {
+      "seasons": 4,
+      "championships": 0,
+      "wins": 7,
+      "podiums": 23,
+      "poles": 9
+    },
+    "contract": {
+      "team": "Team Penske",
+      "length_weeks": 104,
+      "salary_m": 3,
+      "start_week": 1
+    },
+    "age": 31,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Will Power",
+    "team": "Team Penske",
+    "base_lap_time_sim": 80,
+    "cornering": 18,
+    "braking": 17,
+    "consistency": 18,
+    "smoothness": 17,
+    "control": 17,
+    "history": {
+      "seasons": 19,
+      "championships": 2,
+      "wins": 44,
+      "podiums": 105,
+      "poles": 70
+    },
+    "contract": {
+      "team": "Team Penske",
+      "length_weeks": 52,
+      "salary_m": 4,
+      "start_week": 1
+    },
+    "age": 43,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Theo Pourchaire",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 16,
+    "braking": 15,
+    "consistency": 15,
+    "smoothness": 15,
+    "control": 15,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 19,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Linus Lundqvist",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 14,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 15,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Chip Ganassi Racing",
+      "length_weeks": 52,
+      "salary_m": 0.6,
+      "start_week": 1
+    },
+    "age": 24
+  },
+  {
+    "name": "Hunter McElrea",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 13,
+    "consistency": 13,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Andretti Global",
+      "length_weeks": 52,
+      "salary_m": 0.5,
+      "start_week": 1
+    },
+    "age": 22
+  },
+  {
+    "name": "Colin Braun",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 14,
+    "consistency": 15,
+    "smoothness": 15,
+    "control": 15,
+    "history": {
+      "seasons": 2,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 1,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Meyer Shank Racing",
+      "length_weeks": 52,
+      "salary_m": 0.5,
+      "start_week": 1
+    },
+    "age": 37
+  },
+  {
+    "name": "Luca Ghiotto",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 15,
+    "consistency": 14,
+    "smoothness": 14,
+    "control": 14,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 29
+  },
+  {
+    "name": "Katherine Legge",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 14,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 10,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 2,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 44
+  },
+  {
+    "name": "Tristan Vautier",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 14,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 8,
+      "championships": 0,
+      "wins": 1,
+      "podiums": 5,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 33
+  },
+  {
+    "name": "Toby Sowery",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 27
+  },
+  {
+    "name": "Romain Grosjean",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 16,
+    "braking": 15,
+    "consistency": 16,
+    "smoothness": 16,
+    "control": 15,
+    "history": {
+      "seasons": 6,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 4,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 38
+  },
+  {
+    "name": "Agustin Canapino",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 36,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Tom Blomqvist",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 16,
+    "braking": 15,
+    "consistency": 16,
+    "smoothness": 16,
+    "control": 16,
+    "history": {
+      "seasons": 3,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 2,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Meyer Shank Racing",
+      "length_weeks": 52,
+      "salary_m": 0.9,
+      "start_week": 1
+    },
+    "age": 29
+  },
+  {
+    "name": "Pietro Fittipaldi",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 14,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 2,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 29
+  },
+  {
+    "name": "Juri Vips",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 14,
+    "consistency": 14,
+    "smoothness": 13,
+    "control": 14,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 23,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "R. C. Enerson",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 13,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 5,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 12,
+      "salary_m": 0.2,
+      "start_week": 1
+    },
+    "age": 29
+  },
+  {
+    "name": "Tony Kanaan",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 12,
+    "consistency": 15,
+    "smoothness": 15,
+    "control": 15,
+    "history": {
+      "seasons": 22,
+      "championships": 1,
+      "wins": 16,
+      "podiums": 60,
+      "poles": 4
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 50
+  },
+  {
+    "name": "Tatiana Calderon",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 2,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 31,
+    "talent": 50,
+    "trait": null,
+    "pay_driver_amount_m": 0.0
+  },
+  {
+    "name": "Juan Pablo Montoya",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 16,
+    "braking": 15,
+    "consistency": 16,
+    "smoothness": 15,
+    "control": 15,
+    "history": {
+      "seasons": 20,
+      "championships": 1,
+      "wins": 19,
+      "podiums": 40,
+      "poles": 10
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 48
+  },
+  {
+    "name": "James Hinchcliffe",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 14,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 15,
+    "history": {
+      "seasons": 12,
+      "championships": 0,
+      "wins": 1,
+      "podiums": 20,
+      "poles": 1
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 36
+  },
+  {
+    "name": "Kevin Magnussen",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 16,
+    "braking": 15,
+    "consistency": 16,
+    "smoothness": 15,
+    "control": 15,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 31
+  },
+  {
+    "name": "Max Chilton",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 14,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 6,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 32
+  },
+  {
+    "name": "Sébastien Bourdais",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 17,
+    "braking": 16,
+    "consistency": 16,
+    "smoothness": 15,
+    "control": 16,
+    "history": {
+      "seasons": 20,
+      "championships": 4,
+      "wins": 37,
+      "podiums": 70,
+      "poles": 24
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 46
+  },
+  {
+    "name": "Fernando Alonso",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 19,
+    "braking": 18,
+    "consistency": 18,
+    "smoothness": 18,
+    "control": 18,
+    "history": {
+      "seasons": 22,
+      "championships": 2,
+      "wins": 32,
+      "podiums": 100,
+      "poles": 22
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 43
+  },
+  {
+    "name": "Jamie Chadwick",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 14,
+    "smoothness": 14,
+    "control": 14,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 26
+  },
+  {
+    "name": "Dennis Hauger",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 15,
+    "braking": 14,
+    "consistency": 15,
+    "smoothness": 14,
+    "control": 14,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 19
+  },
+  {
+    "name": "Caio Collet",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 14,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 20
+  },
+  {
+    "name": "Lochie Hughes",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 12,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 18
+  },
+  {
+    "name": "Myles Rowe",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 12,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 21
+  },
+  {
+    "name": "Juan Manuel Correa",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 25
+  },
+  {
+    "name": "Salvador de Alba",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 21
+  },
+  {
+    "name": "Josh Pierson",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 12,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 13,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 17
+  },
+  {
+    "name": "Callum Hedge",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 12,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 19
+  },
+  {
+    "name": "Taylor Barnard",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 19
+  },
+  {
+    "name": "Zane Maloney",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 16,
+    "braking": 15,
+    "consistency": 15,
+    "smoothness": 15,
+    "control": 15,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Rahal Letterman Lanigan Racing",
+      "length_weeks": 52,
+      "salary_m": 0.8,
+      "start_week": 1
+    },
+    "age": 21
+  },
+  {
+    "name": "Mick Schumacher",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 16,
+    "braking": 15,
+    "consistency": 15,
+    "smoothness": 15,
+    "control": 15,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 26
+  },
+  {
+    "name": "Jak Crawford",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 14,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 19
+  },
+  {
+    "name": "Kush Maini",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 13,
+    "consistency": 14,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 22
+  },
+  {
+    "name": "Sebastián Montoya",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 12,
+    "braking": 12,
+    "consistency": 12,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 18
+  },
+  {
+    "name": "Joshua Dürksen",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 12,
+    "braking": 12,
+    "consistency": 12,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 20
+  },
+  {
+    "name": "Enzo Fittipaldi",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 21
+  },
+  {
+    "name": "Victor Martins",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 23
+  },
+  {
+    "name": "Richard Verschoor",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 13,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 24
+  },
+  {
+    "name": "Christian Mansell",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 12,
+    "braking": 12,
+    "consistency": 13,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": "Maltby Motorsport Academy",
+      "length_weeks": 52,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 19
+  },
+  {
+    "name": "Logan Sargeant",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 14,
+    "braking": 14,
+    "consistency": 14,
+    "smoothness": 13,
+    "control": 13,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 22
+  },
+  {
+    "name": "Max Esterson",
+    "team": null,
+    "base_lap_time_sim": 80,
+    "cornering": 12,
+    "braking": 12,
+    "consistency": 12,
+    "smoothness": 12,
+    "control": 12,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "contract": {
+      "team": null,
+      "length_weeks": 0,
+      "salary_m": 0,
+      "start_week": 1
+    },
+    "age": 22
+  }
+]

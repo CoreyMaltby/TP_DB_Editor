@@ -1,0 +1,24 @@
+{
+  "engines": {
+    "Mercurion": {
+      "lap_time_delta": -0.5,
+      "reliability_mult": 0.9,
+      "cost_m": 25
+    },
+    "Red Boar PU": {
+      "lap_time_delta": -0.4,
+      "reliability_mult": 0.95,
+      "cost_m": 22
+    },
+    "Rossa": {
+      "lap_time_delta": -0.25,
+      "reliability_mult": 1.2,
+      "cost_m": 20
+    },
+    "French": {
+      "lap_time_delta": 0.0,
+      "reliability_mult": 1.05,
+      "cost_m": 18
+    }
+  }
+}

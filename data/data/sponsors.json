@@ -1,0 +1,602 @@
+[
+  {
+    "name": "BeLiZa Motors",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "BeNi Holdings",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "BeSe Dynamics",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "DaQuXi Dynamics",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "DaWo Industries",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "DaYa Motors",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "DaYuYa Group",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "FuMoGa Group",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "FuSuRo Industries",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "FuXoMo Dynamics",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "GaGa Dynamics",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "GaLi Group",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "GaMiBe Systems",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "GaNi Corp",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "GaPe Group",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "GaVe Motors",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "JoMi Group",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "JoMoZa Industries",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "JoQuFu Systems",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "JoTiRe Holdings",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "KiJo Systems",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "KiMiNi Group",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "KiPeMo Industries",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "KiTa Systems",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "KoBe Industries",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "KoBe Systems",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "KoJoSu Dynamics",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "KoKi Holdings",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "KoWoXo Motors",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "LiMoKi Industries",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "LuLiRe Dynamics",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "LuPe Corp",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "LuSe Corp",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "LuSeZa Systems",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "LuWo Industries",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "MiNiFu Motors",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "MiToQu Dynamics",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "MoLuZa Holdings",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "MoMo Motors",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "MoQu Corp",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "MoRe Group",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "MoZaTi Systems",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "NiSuJo Industries",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "NiTa Dynamics",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "NiXiZa Group",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "PaFu Corp",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "PaGaLi Group",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "PaKo Systems",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "PaZa Industries",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "PaZaVi Corp",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "PeGaQu Motors",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "PePaYu Dynamics",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "QuFuVi Dynamics",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "QuWoTi Holdings",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "ReSu Industries",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "ReVePa Corp",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "RoBeLi Motors",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "RoFu Dynamics",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "RoKi Corp",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "RoKi Motors",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "RoNi Group",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "RoPa Corp",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "RoPe Group",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "RoRe Holdings",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "RoToPe Corp",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "RoXo Group",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "SeJoLu Holdings",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "SeQu Holdings",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "SeTi Motors",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "SuFuYa Systems",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "SuSu Dynamics",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "SuVi Holdings",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "TaDa Corp",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "TaPe Dynamics",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "TaRe Holdings",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "TaToPa Corp",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "TiBeFu Dynamics",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "TiLiSu Motors",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "TiYa Systems",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "ToJo Motors",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "ToTiRe Holdings",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "ToXo Holdings",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "VeLiTi Corp",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "VeLu Group",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "VeSuMo Dynamics",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "VeSuVi Motors",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "VeVe Holdings",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "VeVi Group",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "VeXiSe Systems",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "ViDa Group",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "ViKi Industries",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "ViMi Dynamics",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "ViRoXi Motors",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "ViViLu Dynamics",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "ViXo Holdings",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "WoDaYu Corp",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "WoLiGa Industries",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "WoMi Dynamics",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "WoPePa Corp",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "WoXiVi Industries",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "XiBeYa Industries",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "XiDaXo Industries",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "XiKo Holdings",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "XiYu Holdings",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "XoGaNi Group",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "XoQu Dynamics",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "XoQuTi Systems",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "XoRo Industries",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "XoWo Dynamics",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "XoWoVi Holdings",
+    "rating": 10,
+    "amount_m": 150
+  },
+  {
+    "name": "YaPe Corp",
+    "rating": 1,
+    "amount_m": 20
+  },
+  {
+    "name": "YaRo Holdings",
+    "rating": 2,
+    "amount_m": 30
+  },
+  {
+    "name": "YaWo Group",
+    "rating": 3,
+    "amount_m": 40
+  },
+  {
+    "name": "YuBeVe Corp",
+    "rating": 4,
+    "amount_m": 50
+  },
+  {
+    "name": "YuDaKo Group",
+    "rating": 5,
+    "amount_m": 60
+  },
+  {
+    "name": "YuPePe Systems",
+    "rating": 6,
+    "amount_m": 70
+  },
+  {
+    "name": "ZaDaBe Industries",
+    "rating": 7,
+    "amount_m": 80
+  },
+  {
+    "name": "ZaKoZa Group",
+    "rating": 8,
+    "amount_m": 90
+  },
+  {
+    "name": "ZaLi Corp",
+    "rating": 9,
+    "amount_m": 110
+  },
+  {
+    "name": "ZaSu Systems",
+    "rating": 10,
+    "amount_m": 150
+  }
+]
