@@ -1,17 +1,17 @@
 # utils.py
-import sys
 import json
 from pathlib import Path
+import sys
 
-# --- Paths ---
 if getattr(sys, 'frozen', False):
-    BASE_DIR = Path(sys._MEIPASS)  # when bundled with PyInstaller
-    EXEC_DIR = Path(sys.executable).parent
+    # Running as a bundled exe
+    BASE_DIR = Path(sys.executable).parent
 else:
+    # Running as Python script
     BASE_DIR = Path(__file__).parent
-    EXEC_DIR = BASE_DIR
 
-DATA_DIR = EXEC_DIR / "data"
+DATA_DIR = BASE_DIR / "data"
+
 DATA_DIR.mkdir(exist_ok=True)
 
 # --- Tab files ---

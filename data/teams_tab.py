@@ -49,8 +49,6 @@ class TeamsTab(QWidget):
         self.add_btn.clicked.connect(self.add_team)
 
     def create_sections(self):
-        """Create sections and fields in the form"""
-
         def add_section_header(title):
             lbl = QLabel(title)
             lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
@@ -89,8 +87,9 @@ class TeamsTab(QWidget):
 
         # Performance
         add_section_header("Performance")
-        for key in ["team_pace_slow", "team_pace_med", "team_pace_high",
-                    "attr_slow", "attr_med", "attr_high", "attr_straight",
+        self.fields["team_pace"] = QLineEdit()
+        self.form_layout.addRow("Team Pace", self.fields["team_pace"])
+        for key in ["attr_slow", "attr_med", "attr_high", "attr_straight",
                     "tyre_management", "dirty_air_sensitivity"]:
             self.fields[key] = QLineEdit()
             self.form_layout.addRow(key.replace("_", " ").capitalize(), self.fields[key])
@@ -134,7 +133,7 @@ class TeamsTab(QWidget):
     def load_engines(self):
         self.fields["engine"].clear()
         engines_data = read_json(self.engines_file) or {}
-        engines_dict = engines_data.get("engines", {})  # Extract the dict under "engines"
+        engines_dict = engines_data.get("engines", {})
         self.fields["engine"].addItem("Null")
         for engine_name in engines_dict.keys():
             self.fields["engine"].addItem(engine_name)
@@ -146,24 +145,13 @@ class TeamsTab(QWidget):
             self.list.addItem(t.get("name", "Unnamed"))
 
     def display_team(self, index):
-        # Guard against invalid index
         if index < 0 or index >= len(self.team_data):
-            # Clear all fields
-            for key, field in self.fields.items():
-                if isinstance(field, QLineEdit):
-                    field.clear()
-                elif isinstance(field, QCheckBox):
-                    field.setChecked(False)
-                elif isinstance(field, QComboBox):
-                    field.setCurrentIndex(0)
-                elif isinstance(field, QFrame):
-                    field.setStyleSheet("background-color: #FFFFFF; border: 1px solid #000;")
             return
 
         self.reload_engines()
         team = self.team_data[index]
 
-        # Block signals to avoid recursive updates
+        # Block signals
         for field in self.fields.values():
             try:
                 field.blockSignals(True)
@@ -180,17 +168,10 @@ class TeamsTab(QWidget):
         self.fields["negotiation_points"].setText(str(team.get("negotiation_points", 0)))
 
         # Performance
-        pace = team.get("team_pace", {})
-        if isinstance(pace, dict):
-            self.fields["team_pace_slow"].setText(str(pace.get("slow", 0)))
-            self.fields["team_pace_med"].setText(str(pace.get("med", 0)))
-            self.fields["team_pace_high"].setText(str(pace.get("high", 0)))
+        self.fields["team_pace"].setText(str(team.get("team_pace", 0)))
         attr = team.get("attr", {})
-        if isinstance(attr, dict):
-            self.fields["attr_slow"].setText(str(attr.get("slow", 0)))
-            self.fields["attr_med"].setText(str(attr.get("med", 0)))
-            self.fields["attr_high"].setText(str(attr.get("high", 0)))
-            self.fields["attr_straight"].setText(str(attr.get("straight", 0)))
+        for key in ["attr_slow", "attr_med", "attr_high", "attr_straight"]:
+            self.fields[key].setText(str(attr.get(key.replace("attr_", ""), 0)))
         self.fields["tyre_management"].setText(str(team.get("tyre_management", 0)))
         self.fields["dirty_air_sensitivity"].setText(str(team.get("dirty_air_sensitivity", 0)))
 
@@ -207,22 +188,13 @@ class TeamsTab(QWidget):
 
         # History
         history = team.get("history", {})
-        if isinstance(history, dict):
-            for key in ["seasons", "championships", "wins", "podiums", "poles"]:
-                self.fields[key].setText(str(history.get(key, 0)))
-        else:
-            # Fallback if history is malformed
-            for key in ["seasons", "championships", "wins", "podiums", "poles"]:
-                self.fields[key].setText("0")
+        for key in ["seasons", "championships", "wins", "podiums", "poles"]:
+            self.fields[key].setText(str(history.get(key, 0)))
 
         # Headquarters
         hq = team.get("headquarters", {})
-        if isinstance(hq, dict):
-            for key in ["hospitality_pr_center", "wind_tunnel", "engine_plant"]:
-                self.fields[key].setText(str(hq.get(key, 0)))
-        else:
-            for key in ["hospitality_pr_center", "wind_tunnel", "engine_plant"]:
-                self.fields[key].setText("0")
+        for key in ["hospitality_pr_center", "wind_tunnel", "engine_plant"]:
+            self.fields[key].setText(str(hq.get(key, 0)))
 
         # Unblock signals
         for field in self.fields.values():
@@ -248,23 +220,13 @@ class TeamsTab(QWidget):
         team["negotiation_points"] = int(self.fields["negotiation_points"].text())
 
         # Performance
-        team["team_pace"] = {
-            "slow": float(self.fields["team_pace_slow"].text()),
-            "med": float(self.fields["team_pace_med"].text()),
-            "high": float(self.fields["team_pace_high"].text())
-        }
-        team["attr"] = {
-            "slow": float(self.fields["attr_slow"].text()),
-            "med": float(self.fields["attr_med"].text()),
-            "high": float(self.fields["attr_high"].text()),
-            "straight": float(self.fields["attr_straight"].text())
-        }
+        team["team_pace"] = float(self.fields["team_pace"].text())
+        team["attr"] = {key.replace("attr_", ""): float(self.fields[key].text()) for key in ["attr_slow", "attr_med", "attr_high", "attr_straight"]}
         team["tyre_management"] = float(self.fields["tyre_management"].text())
         team["dirty_air_sensitivity"] = float(self.fields["dirty_air_sensitivity"].text())
 
         # Upgrades
-        team["upgrades"] = {key: float(self.fields[key].text()) for key in
-                            ["front_wing", "underfloor", "rear_wing", "drag", "chassis"]}
+        team["upgrades"] = {key: float(self.fields[key].text()) for key in ["front_wing", "underfloor", "rear_wing", "drag", "chassis"]}
 
         # Engine
         engine = self.fields["engine"].currentText()
@@ -272,12 +234,10 @@ class TeamsTab(QWidget):
         team["engine_contract_seasons"] = int(self.fields["engine_contract_seasons"].text())
 
         # History
-        team["history"] = {key: int(self.fields[key].text()) for key in
-                           ["seasons", "championships", "wins", "podiums", "poles"]}
+        team["history"] = {key: int(self.fields[key].text()) for key in ["seasons", "championships", "wins", "podiums", "poles"]}
 
         # Headquarters
-        team["headquarters"] = {key: int(self.fields[key].text()) for key in
-                                ["hospitality_pr_center", "wind_tunnel", "engine_plant"]}
+        team["headquarters"] = {key: int(self.fields[key].text()) for key in ["hospitality_pr_center", "wind_tunnel", "engine_plant"]}
 
         write_json(self.file, self.team_data)
         QMessageBox.information(self, "Saved", f"Team {team['name']} updated!")
@@ -285,22 +245,19 @@ class TeamsTab(QWidget):
         self.list.setCurrentRow(idx)
 
     def reload_engines(self):
-        """Reload the engine dropdown from engines.json"""
         current_engine = self.fields["engine"].currentText()
         self.load_engines()
-        # Try to restore previously selected engine
         idx = self.fields["engine"].findText(current_engine)
         self.fields["engine"].setCurrentIndex(idx if idx >= 0 else 0)
 
     def add_team(self):
-        """Add a new blank team"""
         new_team = {
             "name": "New Team",
             "active": True,
             "color_rgb": [255, 255, 255],
             "prestige_base": 50,
             "negotiation_points": 0,
-            "team_pace": {"slow": 0, "med": 0, "high": 0},
+            "team_pace": 0,
             "attr": {"slow": 0, "med": 0, "high": 0, "straight": 0},
             "tyre_management": 1.0,
             "dirty_air_sensitivity": 1.0,
