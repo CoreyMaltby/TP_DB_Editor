@@ -4,10 +4,8 @@ from pathlib import Path
 import sys
 
 if getattr(sys, 'frozen', False):
-    # Running as a bundled exe
     BASE_DIR = Path(sys.executable).parent
 else:
-    # Running as Python script
     BASE_DIR = Path(__file__).parent
 
 DATA_DIR = BASE_DIR / "data"

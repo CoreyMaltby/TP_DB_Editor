@@ -12,6 +12,7 @@ TRAITS_LIST = [
     "nervous", "tyre_abuser"
 ]
 
+
 class DriversTab(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -21,11 +22,13 @@ class DriversTab(QWidget):
         layout = QHBoxLayout(self)
         self.setLayout(layout)
 
-        # --- Left: search, driver list, buttons ---
+        # --- Left: search box, driver list + add button ---
         left_layout = QVBoxLayout()
-        self.search_input = QLineEdit()
-        self.search_input.setPlaceholderText("Search driver...")
-        left_layout.addWidget(self.search_input)
+
+        self.search_box = QLineEdit()
+        self.search_box.setPlaceholderText("Search drivers...")
+        self.search_box.textChanged.connect(self.filter_drivers)
+        left_layout.addWidget(self.search_box)
 
         self.list = QListWidget()
         left_layout.addWidget(self.list)
@@ -34,9 +37,9 @@ class DriversTab(QWidget):
         left_layout.addWidget(self.add_btn)
         self.add_btn.clicked.connect(self.add_driver)
 
-        self.sort_btn = QPushButton("Sort Alphabetically")
-        left_layout.addWidget(self.sort_btn)
-        self.sort_btn.clicked.connect(self.sort_drivers)
+        self.search_btn = QPushButton("Reload Drivers")
+        left_layout.addWidget(self.search_btn)
+        self.search_btn.clicked.connect(self.load_data)
 
         layout.addLayout(left_layout, 1)
 
@@ -67,64 +70,59 @@ class DriversTab(QWidget):
             """)
             self.form_layout.addRow(lbl)
 
-        # Driver Details
         add_section_header("Driver Details")
         for field in ["name", "age", "talent", "train"]:
             self.fields[field] = QLineEdit()
             self.form_layout.addRow(QLabel(field.capitalize()), self.fields[field])
 
-        # Pay driver amount field
+        # Pay driver field
         self.fields["pay_driver_amount_m"] = QLineEdit()
         self.form_layout.addRow(QLabel("Pay Driver Amount (M)"), self.fields["pay_driver_amount_m"])
 
-        # Stats
         add_section_header("Stats")
         for field in ["base_lap_time_sim", "number", "cornering", "braking",
                       "consistency", "smoothness", "control"]:
             self.fields[field] = QLineEdit()
             self.form_layout.addRow(QLabel(field.capitalize()), self.fields[field])
 
-        # History
         add_section_header("History")
         for field in ["seasons", "championships", "wins", "podiums", "poles"]:
             self.fields[field] = QLineEdit()
             self.form_layout.addRow(QLabel(field.capitalize()), self.fields[field])
 
-        # Contract
         add_section_header("Contract")
         self.fields["contract_team"] = QComboBox()
-        self.fields["contract_role"] = QComboBox()
-        self.fields["contract_role"].addItems(["null", "main", "reserve"])
         self.load_active_teams()
         self.form_layout.addRow(QLabel("Team"), self.fields["contract_team"])
-        self.form_layout.addRow(QLabel("Role"), self.fields["contract_role"])
 
-        for field in ["length_weeks", "salary_m", "start_week"]:
+        for field in ["length_weeks", "salary_m", "start_week", "role"]:
             key = f"contract_{field}"
-            self.fields[key] = QLineEdit()
+            if field == "role":
+                self.fields[key] = QComboBox()
+                self.fields[key].addItems(["Null", "main", "reserve"])
+            else:
+                self.fields[key] = QLineEdit()
             self.form_layout.addRow(QLabel(field.capitalize()), self.fields[key])
 
-        # Traits
         add_section_header("Traits")
         self.fields["traits"] = QComboBox()
         self.fields["traits"].setEditable(True)
         self.fields["traits"].lineEdit().setReadOnly(True)
         self.fields["traits"].lineEdit().setAlignment(Qt.AlignmentFlag.AlignLeft)
         self.form_layout.addRow(QLabel("Traits"), self.fields["traits"])
+
         self.setup_traits_combo()
 
-        # Save button
         self.save_btn = QPushButton("Save Changes")
         self.form_layout.addRow(self.save_btn)
 
         self.drivers = []
+        self.filtered_drivers = []
         self.load_data()
 
-        # Connections
         self.list.currentRowChanged.connect(self.display_driver)
         self.save_btn.clicked.connect(self.save_data)
         self.fields["contract_team"].currentIndexChanged.connect(self.on_team_changed)
-        self.search_input.textChanged.connect(self.update_driver_list)
 
     def setup_traits_combo(self):
         combo = self.fields["traits"]
@@ -147,6 +145,8 @@ class DriversTab(QWidget):
             if item.checkState() == Qt.CheckState.Checked:
                 selected.append(item.text())
         combo.setCurrentText(", ".join(selected))
+
+        # Show/hide pay_driver_amount_m based on "pay driver" trait
         self.fields["pay_driver_amount_m"].setVisible("pay driver" in selected)
 
     def load_active_teams(self):
@@ -158,27 +158,35 @@ class DriversTab(QWidget):
 
     def on_team_changed(self):
         team = self.fields["contract_team"].currentText()
-        read_only = team.lower() == "null"
+        read_only = team == "Null"
         for key in ["contract_length_weeks", "contract_salary_m", "contract_start_week"]:
             self.fields[key].setReadOnly(read_only)
             if read_only:
                 self.fields[key].setText("0")
+        self.fields["contract_role"].setCurrentText("Null" if read_only else "main")
 
     def load_data(self):
         self.drivers = read_json(self.file) or []
-        self.update_driver_list()
+        self.filtered_drivers = self.drivers[:]  # Keep original order
+        self.refresh_list()
 
-    def update_driver_list(self):
-        search_text = self.search_input.text().lower().strip()
+    def refresh_list(self):
         self.list.clear()
-        for d in sorted(self.drivers, key=lambda x: x.get("name", "").lower()):
-            if search_text in d.get("name", "").lower():
-                self.list.addItem(d.get("name", "Unnamed"))
+        for d in self.filtered_drivers:
+            self.list.addItem(d.get("name", "Unnamed"))
+
+    def filter_drivers(self, text):
+        text = text.lower()
+        self.filtered_drivers = [
+            d for d in self.drivers if text in d.get("name", "").lower()
+        ]
+        self.refresh_list()
 
     def display_driver(self, index):
-        if index < 0 or index >= len(self.drivers):
+        if index < 0 or index >= len(self.filtered_drivers):
             return
-        driver = self.drivers[index]
+        driver = self.filtered_drivers[index]
+
         for key, widget in self.fields.items():
             if key.startswith("contract_"):
                 contract_key = key.replace("contract_", "")
@@ -186,7 +194,8 @@ class DriversTab(QWidget):
                     idx = widget.findText(driver.get("contract", {}).get("team", "Null"))
                     widget.setCurrentIndex(idx if idx >= 0 else 0)
                 elif contract_key == "role":
-                    idx = widget.findText(driver.get("contract", {}).get("role", "null"))
+                    role = driver.get("contract", {}).get("role", "Null")
+                    idx = widget.findText(role)
                     widget.setCurrentIndex(idx if idx >= 0 else 0)
                 else:
                     widget.setText(str(driver.get("contract", {}).get(contract_key, "")))
@@ -194,6 +203,7 @@ class DriversTab(QWidget):
                 self.set_traits_checkboxes(driver.get("traits", []))
             else:
                 widget.setText(str(driver.get(key, "")))
+
         self.update_traits_display()
         self.on_team_changed()
 
@@ -205,21 +215,30 @@ class DriversTab(QWidget):
 
     def save_data(self):
         idx = self.list.currentRow()
-        if idx < 0:
+        if idx < 0 or idx >= len(self.filtered_drivers):
             return
-        driver = self.drivers[idx]
+        driver = self.filtered_drivers[idx]
+        original_idx = self.drivers.index(driver)
+
         for key, widget in self.fields.items():
             if key.startswith("contract_"):
                 contract_key = key.replace("contract_", "")
-                driver.setdefault("contract", {})[contract_key] = widget.currentText() if contract_key in ["team","role"] else widget.text()
+                if contract_key == "team":
+                    driver.setdefault("contract", {})[contract_key] = widget.currentText()
+                elif contract_key == "role":
+                    driver.setdefault("contract", {})[contract_key] = widget.currentText()
+                else:
+                    driver.setdefault("contract", {})[contract_key] = widget.text()
             elif key == "traits":
                 driver["traits"] = [t.strip() for t in widget.currentText().split(",") if t.strip()]
             else:
                 driver[key] = widget.text()
+
+        self.drivers[original_idx] = driver
         write_json(self.file, self.drivers)
         QMessageBox.information(self, "Saved", f"Driver {driver.get('name')} updated!")
         self.load_data()
-        self.list.setCurrentRow(idx)
+        self.list.setCurrentRow(original_idx)
 
     def add_driver(self):
         new_driver = {
@@ -243,16 +262,12 @@ class DriversTab(QWidget):
             "traits": [],
             "contract": {
                 "team": "Null",
-                "role": "null",
                 "length_weeks": 0,
                 "salary_m": 0,
-                "start_week": 1
+                "start_week": 1,
+                "role": "Null"
             }
         }
         self.drivers.append(new_driver)
         self.load_data()
         self.list.setCurrentRow(len(self.drivers) - 1)
-
-    def sort_drivers(self):
-        self.drivers.sort(key=lambda x: x.get("name", "").lower())
-        self.load_data()

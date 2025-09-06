@@ -2,7 +2,6 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QTabWidget
 
-from data.engines_tab import EnginesTab
 from utils import TAB_FILES, DATA_DIR, ACCENT, TEXT, BG, read_json, write_json
 from drivers_tab import DriversTab
 from teams_tab import TeamsTab

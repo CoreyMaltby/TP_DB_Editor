@@ -6,7 +6,6 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtCore import Qt
 from utils import DATA_DIR, TAB_FILES, read_json, write_json, ACCENT, TEXT
 
-
 # mapping for nicer role names in the UI
 ROLE_DISPLAY = {
     "technical_director": "Technical Director",
@@ -14,9 +13,7 @@ ROLE_DISPLAY = {
     "head_of_dynamics": "Head of Dynamics",
     "chief_mechanic": "Chief Mechanic"
 }
-
 DISPLAY_ROLE_TO_JSON = {v: k for k, v in ROLE_DISPLAY.items()}
-
 
 
 class StaffTab(QWidget):
@@ -54,8 +51,8 @@ class StaffTab(QWidget):
         self.list.currentRowChanged.connect(self.display_staff)
         self.add_btn.clicked.connect(self.add_staff)
 
-    def create_fields(self):
-        lbl = QLabel("Staff Details")
+    def add_section_header(self, title):
+        lbl = QLabel(title)
         lbl.setAlignment(Qt.AlignmentFlag.AlignCenter)
         lbl.setStyleSheet(f"""
             font-weight: bold;
@@ -69,20 +66,30 @@ class StaffTab(QWidget):
         """)
         self.form_layout.addRow(lbl)
 
+    def create_fields(self):
+        self.add_section_header("Staff Details")
+
         self.fields["name"] = QLineEdit()
         self.fields["role"] = QComboBox()
         self.fields["role"].addItems(list(ROLE_DISPLAY.values()))
         self.fields["team"] = QLineEdit()
         self.fields["skill"] = QLineEdit()
         self.fields["age"] = QLineEdit()
+
+        for key in ["name", "role", "team", "skill", "age"]:
+            label = key.replace("_", " ").capitalize()
+            self.form_layout.addRow(label, self.fields[key])
+
+        self.add_section_header("Contract")
+
         self.fields["contract_team"] = QLineEdit()
         self.fields["contract_length"] = QLineEdit()
         self.fields["contract_salary"] = QLineEdit()
         self.fields["contract_start"] = QLineEdit()
 
-        for key, widget in self.fields.items():
+        for key in ["contract_team", "contract_length", "contract_salary", "contract_start"]:
             label = key.replace("_", " ").capitalize()
-            self.form_layout.addRow(label, widget)
+            self.form_layout.addRow(label, self.fields[key])
 
         self.save_btn = QPushButton("Save Changes")
         self.form_layout.addRow(self.save_btn)
@@ -98,17 +105,20 @@ class StaffTab(QWidget):
         if index < 0 or index >= len(self.staff_data):
             return
         staff = self.staff_data[index]
+
         self.fields["name"].setText(staff.get("name", ""))
-        self.fields["role"].setCurrentText(ROLE_DISPLAY.get(staff.get("role"), "Technical Director"))
+        self.fields["role"].setCurrentText(
+            ROLE_DISPLAY.get(staff.get("role"), "Technical Director")
+        )
         self.fields["team"].setText(staff.get("team") or "")
-        self.fields["skill"].setText(str(staff.get("skill", 0)))
-        self.fields["age"].setText(str(staff.get("age", 0)))
+        self.fields["skill"].setText(str(staff.get("skill", "")))
+        self.fields["age"].setText(str(staff.get("age", "")))
 
         contract = staff.get("contract") or {}
-        self.fields["contract_team"].setText(contract.get("team") or "")
-        self.fields["contract_length"].setText(str(contract.get("length_weeks", 0)))
-        self.fields["contract_salary"].setText(str(contract.get("salary_m", 0)))
-        self.fields["contract_start"].setText(str(contract.get("start_week", 0)))
+        self.fields["contract_team"].setText(contract.get("team", "") or "")
+        self.fields["contract_length"].setText(str(contract.get("length_weeks", "")))
+        self.fields["contract_salary"].setText(str(contract.get("salary_m", "")))
+        self.fields["contract_start"].setText(str(contract.get("start_week", "")))
 
     def save_staff(self):
         idx = self.list.currentRow()
@@ -117,20 +127,33 @@ class StaffTab(QWidget):
         staff = self.staff_data[idx]
 
         staff["name"] = self.fields["name"].text()
-        staff["role"] = DISPLAY_ROLE_TO_JSON[self.fields["role"].currentText()]
+        staff["role"] = DISPLAY_ROLE_TO_JSON.get(
+            self.fields["role"].currentText(), "technical_director"
+        )
         staff["team"] = self.fields["team"].text() or None
-        staff["skill"] = int(self.fields["skill"].text())
-        staff["age"] = int(self.fields["age"].text())
 
-        if staff["team"]:
-            staff["contract"] = {
-                "team": self.fields["contract_team"].text() or staff["team"],
-                "length_weeks": int(self.fields["contract_length"].text()),
-                "salary_m": float(self.fields["contract_salary"].text()),
-                "start_week": int(self.fields["contract_start"].text())
-            }
-        else:
-            staff["contract"] = None
+        # safely cast numbers
+        def safe_int(widget):
+            try:
+                return int(widget.text())
+            except ValueError:
+                return 0
+
+        def safe_float(widget):
+            try:
+                return float(widget.text())
+            except ValueError:
+                return 0.0
+
+        staff["skill"] = safe_int(self.fields["skill"])
+        staff["age"] = safe_int(self.fields["age"])
+
+        staff["contract"] = {
+            "team": self.fields["contract_team"].text() or None,
+            "length_weeks": safe_int(self.fields["contract_length"]),
+            "salary_m": safe_float(self.fields["contract_salary"]),
+            "start_week": safe_int(self.fields["contract_start"]),
+        }
 
         write_json(self.file, self.staff_data)
         QMessageBox.information(self, "Saved", f"Staff {staff['name']} updated!")
@@ -140,11 +163,16 @@ class StaffTab(QWidget):
     def add_staff(self):
         new_staff = {
             "name": "New Staff",
-            "role": ROLES[0],
+            "role": "technical_director",  # default to TD
             "team": None,
             "skill": 10,
             "age": 30,
-            "contract": None
+            "contract": {
+                "team": None,
+                "length_weeks": 0,
+                "salary_m": 0.0,
+                "start_week": 1,
+            },
         }
         self.staff_data.append(new_staff)
         write_json(self.file, self.staff_data)
