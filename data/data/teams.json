@@ -708,5 +708,46 @@
       "podiums": 61,
       "poles": 61
     }
+  },
+  {
+    "name": "New Team",
+    "active": true,
+    "color_rgb": [
+      255,
+      255,
+      255
+    ],
+    "prestige_base": 50,
+    "negotiation_points": 0,
+    "team_pace": 0,
+    "attr": {
+      "slow": 0,
+      "med": 0,
+      "high": 0,
+      "straight": 0
+    },
+    "tyre_management": 1.0,
+    "dirty_air_sensitivity": 1.0,
+    "upgrades": {
+      "front_wing": 0,
+      "underfloor": 0,
+      "rear_wing": 0,
+      "drag": 0,
+      "chassis": 0
+    },
+    "engine": null,
+    "engine_contract_seasons": 0,
+    "history": {
+      "seasons": 0,
+      "championships": 0,
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0
+    },
+    "headquarters": {
+      "hospitality_pr_center": 0,
+      "wind_tunnel": 0,
+      "engine_plant": 0
+    }
   }
 ]

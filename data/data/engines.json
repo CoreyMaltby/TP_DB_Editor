@@ -19,6 +19,11 @@
       "lap_time_delta": 0.0,
       "reliability_mult": 1.05,
       "cost_m": 18
+    },
+    "New Engine": {
+      "lap_time_delta": 0,
+      "reliability_mult": 1,
+      "cost_m": 0
     }
   }
 }
