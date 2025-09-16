@@ -11,6 +11,7 @@ from sponsors_tab import SponsorsTab
 from staff_tab import  StaffTab
 from events_tab import  EventsTab
 from config_tab import ConfigTab
+from schedule_tab import ScheduleTab
 
 # --- Main Window ---
 class MainWindow(QMainWindow):
@@ -43,6 +44,8 @@ class MainWindow(QMainWindow):
                 tab = EventsTab()
             elif name == "config":
                 tab = ConfigTab()
+            elif name == "schedule":
+                tab = ScheduleTab()
             else:
                 tab = TableTab(name)
             self.tab_objs[name] = tab

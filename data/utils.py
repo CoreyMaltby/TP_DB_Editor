@@ -21,6 +21,7 @@ TAB_FILES = {
     "sponsors": "sponsors.json",
     "staff": "staff.json",
     "events": "events.json",
+    "schedule": "schedule.json"
 }
 
 # --- Colour Scheme ---
