@@ -7,22 +7,22 @@
   {
     "type": "team_join",
     "team": "Lola Racing",
-    "chance": 0.05
+    "chance": 0.03
   },
   {
     "type": "team_join",
     "team": "Zephyr GP",
-    "chance": 0.05
+    "chance": 0.03
   },
   {
     "type": "team_join",
     "team": "Phoenix Racing",
-    "chance": 0.05
+    "chance": 0.03
   },
   {
     "type": "team_join",
     "team": "Orion Motorsport",
-    "chance": 0.05
+    "chance": 0.03
   },
   {
     "type": "team_join",
@@ -39,22 +39,22 @@
   },
   {
     "type": "reg_change_engine",
-    "chance": 0.15
-  },
-  {
-    "type": "reg_change_chassis_minor",
     "chance": 0.25
   },
   {
+    "type": "reg_change_chassis_minor",
+    "chance": 0.12
+  },
+  {
     "type": "reg_change_chassis_major",
-    "chance": 0.1
+    "chance": 0.05
   },
   {
     "type": "team_package_aced",
-    "chance": 0.15
+    "chance": 0.2
   },
   {
     "type": "team_package_struggle",
-    "chance": 0.2
+    "chance": 0.15
   }
 ]

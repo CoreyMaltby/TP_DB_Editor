@@ -14,15 +14,17 @@ DATA_DIR.mkdir(exist_ok=True)
 
 # --- Tab files ---
 TAB_FILES = {
-    "config": "config.json",
     "drivers": "drivers.json",
     "teams": "teams.json",
     "engines": "engines.json",
     "sponsors": "sponsors.json",
     "staff": "staff.json",
     "events": "events.json",
-    "schedule": "schedule.json"
+    "config": "config.json",
+    "schedule": "schedule.json",
+    "tyre_suppliers": "tyre_suppliers.json"
 }
+
 
 # --- Colour Scheme ---
 BG = "#393E41"

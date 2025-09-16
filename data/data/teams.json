@@ -36,9 +36,14 @@
     "headquarters": {
       "hospitality_pr_center": 4,
       "wind_tunnel": 3,
-      "engine_plant": 1
+      "engine_plant": 1,
+      "test_track": 1
     },
-    "negotiation_points": 0
+    "negotiation_points": 0,
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "works"
+    }
   },
   {
     "name": "Scuderia Rossa",
@@ -70,7 +75,8 @@
     "headquarters": {
       "hospitality_pr_center": 3,
       "wind_tunnel": 3,
-      "engine_plant": 4
+      "engine_plant": 4,
+      "test_track": 1
     },
     "negotiation_points": 0,
     "history": {
@@ -79,6 +85,10 @@
       "wins": 77,
       "podiums": 5,
       "poles": 24
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "partner"
     }
   },
   {
@@ -112,7 +122,8 @@
     "headquarters": {
       "hospitality_pr_center": 3,
       "wind_tunnel": 3,
-      "engine_plant": 0
+      "engine_plant": 0,
+      "test_track": 1
     },
     "negotiation_points": 0,
     "history": {
@@ -121,6 +132,10 @@
       "wins": 15,
       "podiums": 122,
       "poles": 26
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "works"
     }
   },
   {
@@ -153,7 +168,8 @@
     "headquarters": {
       "hospitality_pr_center": 3,
       "wind_tunnel": 2,
-      "engine_plant": 4
+      "engine_plant": 4,
+      "test_track": 1
     },
     "negotiation_points": 0,
     "history": {
@@ -162,6 +178,10 @@
       "wins": 2,
       "podiums": 139,
       "poles": 54
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "partner"
     }
   },
   {
@@ -204,6 +224,10 @@
       "wins": 33,
       "podiums": 17,
       "poles": 28
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
     }
   },
   {
@@ -245,6 +269,10 @@
       "wins": 38,
       "podiums": 89,
       "poles": 55
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
     }
   },
   {
@@ -287,6 +315,10 @@
       "wins": 64,
       "podiums": 119,
       "poles": 5
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
     }
   },
   {
@@ -329,6 +361,10 @@
       "wins": 89,
       "podiums": 100,
       "poles": 25
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
     }
   },
   {
@@ -371,6 +407,10 @@
       "wins": 93,
       "podiums": 120,
       "poles": 72
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
     }
   },
   {
@@ -413,6 +453,10 @@
       "wins": 86,
       "podiums": 52,
       "poles": 7
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
     }
   },
   {
@@ -455,6 +499,10 @@
       "wins": 43,
       "podiums": 135,
       "poles": 32
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
     }
   },
   {
@@ -497,6 +545,10 @@
       "wins": 56,
       "podiums": 170,
       "poles": 22
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
     }
   },
   {
@@ -539,6 +591,10 @@
       "wins": 87,
       "podiums": 104,
       "poles": 72
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
     }
   },
   {
@@ -581,6 +637,10 @@
       "wins": 83,
       "podiums": 91,
       "poles": 49
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
     }
   },
   {
@@ -623,6 +683,10 @@
       "wins": 71,
       "podiums": 176,
       "poles": 1
+    },
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
     }
   },
   {
@@ -665,6 +729,10 @@
       "wins": 10,
       "podiums": 85,
       "poles": 5
+    },
+    "tyre_contract": {
+      "supplier": "Durabo",
+      "type": "customer"
     }
   },
   {
@@ -707,47 +775,10 @@
       "wins": 17,
       "podiums": 61,
       "poles": 61
-    }
-  },
-  {
-    "name": "New Team",
-    "active": true,
-    "color_rgb": [
-      255,
-      255,
-      255
-    ],
-    "prestige_base": 50,
-    "negotiation_points": 0,
-    "team_pace": 0,
-    "attr": {
-      "slow": 0,
-      "med": 0,
-      "high": 0,
-      "straight": 0
     },
-    "tyre_management": 1.0,
-    "dirty_air_sensitivity": 1.0,
-    "upgrades": {
-      "front_wing": 0,
-      "underfloor": 0,
-      "rear_wing": 0,
-      "drag": 0,
-      "chassis": 0
-    },
-    "engine": null,
-    "engine_contract_seasons": 0,
-    "history": {
-      "seasons": 0,
-      "championships": 0,
-      "wins": 0,
-      "podiums": 0,
-      "poles": 0
-    },
-    "headquarters": {
-      "hospitality_pr_center": 0,
-      "wind_tunnel": 0,
-      "engine_plant": 0
+    "tyre_contract": {
+      "supplier": "GripMaster",
+      "type": "customer"
     }
   }
 ]

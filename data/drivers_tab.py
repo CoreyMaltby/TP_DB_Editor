@@ -76,10 +76,6 @@ class DriversTab(QWidget):
             self.fields[field] = QLineEdit()
             self.form_layout.addRow(QLabel(field.capitalize()), self.fields[field])
 
-        # Pay driver field
-        self.fields["pay_driver_amount_m"] = QLineEdit()
-        self.form_layout.addRow(QLabel("Pay Driver Amount (M)"), self.fields["pay_driver_amount_m"])
-
         # Stats
         add_section_header("Stats")
         for field in ["base_lap_time_sim", "number", "cornering", "braking",
@@ -116,6 +112,10 @@ class DriversTab(QWidget):
         self.fields["traits"].lineEdit().setAlignment(Qt.AlignmentFlag.AlignLeft)
         self.form_layout.addRow(QLabel("Traits"), self.fields["traits"])
         self.setup_traits_combo()
+
+        # Pay driver field
+        self.fields["pay_driver_amount_m"] = QLineEdit()
+        self.form_layout.addRow(QLabel("Pay Driver Amount (M)"), self.fields["pay_driver_amount_m"])
 
         # Save + Delete buttons
         self.save_btn = QPushButton("Save Changes")

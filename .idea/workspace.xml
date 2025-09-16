@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6d3bffc-de25-4845-ae35-191c110aff21" name="Changes" comment="Fixed drivers tab">
-      <change afterPath="$PROJECT_DIR$/data/schedule_tab.py" afterDir="false" />
+    <list default="true" id="f6d3bffc-de25-4845-ae35-191c110aff21" name="Changes" comment="Added schedule tab">
+      <change afterPath="$PROJECT_DIR$/data/data/tyre_suppliers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tyre_supplier_tab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data/drivers.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data/drivers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data/engines.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data/engines.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data/events.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/data/schedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data/schedule.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data/sponsors.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data/sponsors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data/staff.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data/staff.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data/teams.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data/teams.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/drivers_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/drivers_tab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/schdule_tab.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/teams_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/teams_tab.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,34 +58,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.config_tab.executor": "Run",
-    "Python.drivers_tab.executor": "Run",
-    "Python.editor.executor": "Run",
-    "Python.events_tab.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.table_tab.executor": "Run",
-    "Python.teams_tab.executor": "Run",
-    "Python.utils.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Acer/PycharmProjects/TP_DB_Editor/data/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.config_tab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.drivers_tab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.editor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.events_tab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.table_tab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teams_tab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/PycharmProjects/TP_DB_Editor/data/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer\PycharmProjects\TP_DB_Editor\data\data" />
       <recent name="C:\Users\Acer\PycharmProjects\PythonProject\data\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -104,7 +114,8 @@
       <workItem from="1756994173884" duration="177000" />
       <workItem from="1757141613775" duration="5334000" />
       <workItem from="1757187036397" duration="1035000" />
-      <workItem from="1758012417618" duration="1766000" />
+      <workItem from="1758012417618" duration="3292000" />
+      <workItem from="1758030752474" duration="715000" />
     </task>
     <task id="LOCAL-00001" summary="Main program">
       <option name="closed" value="true" />
@@ -138,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758013966330</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added schedule tab">
+      <option name="closed" value="true" />
+      <created>1758014208059</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758014208059</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,11 +166,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main program" />
     <MESSAGE value="Fixed drivers tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed drivers tab" />
+    <MESSAGE value="Added schedule tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added schedule tab" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TP_DB_Editor$events_tab.coverage" NAME="events_tab Coverage Results" MODIFIED="1756988280516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
-    <SUITE FILE_PATH="coverage/TP_DB_Editor$main.coverage" NAME="main Coverage Results" MODIFIED="1758013332037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/TP_DB_Editor$main.coverage" NAME="main Coverage Results" MODIFIED="1758031526526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/TP_DB_Editor$config_tab.coverage" NAME="config_tab Coverage Results" MODIFIED="1756991372876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/TP_DB_Editor$editor.coverage" NAME="editor Coverage Results" MODIFIED="1756984441138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/TP_DB_Editor$table_tab.coverage" NAME="table_tab Coverage Results" MODIFIED="1756985531621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />

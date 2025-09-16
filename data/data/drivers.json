@@ -23,10 +23,7 @@
     },
     "age": 26,
     "talent": 98,
-    "traits": [
-      "hotlapper",
-      "nervous"
-    ]
+    "traits": ["hotlapper", "nervous"]
   },
   {
     "name": "Santos Paredo",
@@ -52,10 +49,7 @@
       "poles": 32
     },
     "talent": 87,
-    "traits": [
-      "tyre_whisperer",
-      "crash_happy"
-    ]
+    "traits": ["tyre_whisperer", "crash_happy"]
   },
   {
     "name": "Charlton Laroque",
@@ -81,10 +75,7 @@
       "poles": 30
     },
     "talent": 95,
-    "traits": [
-      "hotlapper",
-      "tyre_abuser"
-    ]
+    "traits": ["hotlapper", "tyre_abuser"]
   },
   {
     "name": "Carlito Segas",
@@ -110,10 +101,7 @@
       "poles": 8
     },
     "talent": 90,
-    "traits": [
-      "overtake_artist",
-      "bottlejob"
-    ]
+    "traits": ["overtake_artist", "bottlejob"]
   },
   {
     "name": "Gregor Ruskin",
@@ -139,10 +127,7 @@
       "poles": 39
     },
     "talent": 95,
-    "traits": [
-      "mechanic",
-      "nervous"
-    ]
+    "traits": ["mechanic", "nervous"]
   },
   {
     "name": "Louis Hamrell",
@@ -169,10 +154,7 @@
       "poles": 9
     },
     "talent": 96,
-    "traits": [
-      "clean_air_merchant",
-      "bottlejob"
-    ]
+    "traits": ["clean_air_merchant", "bottlejob"]
   },
   {
     "name": "Lars Norren",
@@ -198,10 +180,7 @@
       "poles": 43
     },
     "talent": 93,
-    "traits": [
-      "hotlapper",
-      "crash_happy"
-    ]
+    "traits": ["hotlapper", "crash_happy"]
   },
   {
     "name": "Owen Pastrel",
@@ -227,10 +206,7 @@
       "poles": 22
     },
     "talent": 93,
-    "traits": [
-      "tyre_whisperer",
-      "bottlejob"
-    ]
+    "traits": ["tyre_whisperer", "bottlejob"]
   },
   {
     "name": "Ferdin Andros",
@@ -257,10 +233,7 @@
       "poles": 13
     },
     "talent": 98,
-    "traits": [
-      "clean_air_merchant",
-      "nervous"
-    ]
+    "traits": ["clean_air_merchant", "nervous"]
   },
   {
     "name": "Lars Strind",
@@ -286,10 +259,7 @@
       "poles": 16
     },
     "talent": 75,
-    "traits": [
-      "pay_driver",
-      "crash_happy"
-    ],
+    "traits": ["pay_driver", "crash_happy"],
     "pay_driver_amount_m": 12.0
   },
   {
@@ -316,10 +286,7 @@
       "poles": 46
     },
     "talent": 88,
-    "traits": [
-      "hotlapper",
-      "tyre_abuser"
-    ]
+    "traits": ["hotlapper", "tyre_abuser"]
   },
   {
     "name": "Pietro Gastrelli",
@@ -345,10 +312,7 @@
       "poles": 40
     },
     "talent": 89,
-    "traits": [
-      "tyre_whisperer",
-      "nervous"
-    ]
+    "traits": ["tyre_whisperer", "nervous"]
   },
   {
     "name": "Aiden Albarn",
@@ -374,10 +338,7 @@
       "poles": 15
     },
     "talent": 89,
-    "traits": [
-      "tyre_whisperer",
-      "crash_happy"
-    ]
+    "traits": ["tyre_whisperer", "crash_happy"]
   },
   {
     "name": "Lukas Corbin",
@@ -403,10 +364,7 @@
       "poles": 36
     },
     "talent": 70,
-    "traits": [
-      "pay_driver",
-      "bottlejob"
-    ],
+    "traits": ["pay_driver", "bottlejob"],
     "pay_driver_amount_m": 12.0
   },
   {
@@ -433,10 +391,7 @@
       "poles": 28
     },
     "talent": 80,
-    "traits": [
-      "pay_driver",
-      "tyre_abuser"
-    ],
+    "traits": ["pay_driver", "tyre_abuser"],
     "pay_driver_amount_m": 7.0
   },
   {
@@ -463,10 +418,7 @@
       "poles": 31
     },
     "talent": 86,
-    "traits": [
-      "hotlapper",
-      "nervous"
-    ]
+    "traits": ["hotlapper", "nervous"]
   },
   {
     "name": "Yuta Tsubane",
@@ -492,10 +444,7 @@
       "poles": 45
     },
     "talent": 78,
-    "traits": [
-      "pay_driver",
-      "crash_happy"
-    ],
+    "traits": ["pay_driver", "crash_happy"],
     "pay_driver_amount_m": 6.0
   },
   {
@@ -522,10 +471,7 @@
       "poles": 13
     },
     "talent": 84,
-    "traits": [
-      "overtake_artist",
-      "bottlejob"
-    ]
+    "traits": ["overtake_artist", "bottlejob"]
   },
   {
     "name": "Valden Bottero",
@@ -551,10 +497,7 @@
       "poles": 28
     },
     "talent": 84,
-    "traits": [
-      "clean_air_merchant",
-      "nervous"
-    ]
+    "traits": ["clean_air_merchant", "nervous"]
   },
   {
     "name": "Zhen Guorin",
@@ -580,10 +523,7 @@
       "poles": 36
     },
     "talent": 80,
-    "traits": [
-      "pay_driver",
-      "tyre_abuser"
-    ],
+    "traits": ["pay_driver", "tyre_abuser"],
     "pay_driver_amount_m": 15.0
   },
   {
@@ -939,7 +879,7 @@
       "poles": 0
     },
     "talent": 53,
-    "trait": "hotlapper"
+     "trait": "hotlapper"
   },
   {
     "name": "Toby Renard",

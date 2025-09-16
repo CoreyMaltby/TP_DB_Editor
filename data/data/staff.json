@@ -216,7 +216,7 @@
   },
   {
     "name": "Oliver King",
-    "role": "head_of_dynamics",
+    "role": "chief_designer",
     "team": "French Blue",
     "skill": 20,
     "age": 52,
@@ -682,18 +682,5 @@
     "team": null,
     "skill": 18,
     "age": 32
-  },
-  {
-    "name": "New Staff",
-    "role": "technical_director",
-    "team": null,
-    "skill": 10,
-    "age": 30,
-    "contract": {
-      "team": null,
-      "length_weeks": 0,
-      "salary_m": 0.0,
-      "start_week": 1
-    }
   }
 ]

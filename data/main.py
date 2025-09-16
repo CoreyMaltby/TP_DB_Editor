@@ -12,6 +12,7 @@ from staff_tab import  StaffTab
 from events_tab import  EventsTab
 from config_tab import ConfigTab
 from schedule_tab import ScheduleTab
+from tyre_supplier_tab import TyreSuppliersTab
 
 # --- Main Window ---
 class MainWindow(QMainWindow):
@@ -46,6 +47,8 @@ class MainWindow(QMainWindow):
                 tab = ConfigTab()
             elif name == "schedule":
                 tab = ScheduleTab()
+            elif name == "tyre_suppliers":
+                tab = TyreSuppliersTab()
             else:
                 tab = TableTab(name)
             self.tab_objs[name] = tab
